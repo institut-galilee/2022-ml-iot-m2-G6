@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degrade"
+    tools:context=".OptionActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/chewy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        android:text="@string/spycheat"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/choississez_votre_option"
+        android:textAlignment="center"
+        android:layout_marginTop="210dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/barlow"/>
+
+
+    <Button
+        android:id="@+id/btn_tete"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:textSize="22sp"
+        android:textColor="@color/dark_blue"
+        android:text="@string/tete"
+        android:backgroundTint="@color/light_purple"
+        app:cornerRadius="80dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:textSize="22sp"
+        android:textColor="@color/dark_blue"
+        android:text="@string/main"
+        android:backgroundTint="@color/light_purple"
+        app:cornerRadius="80dp"
+        android:layout_marginTop="395dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_quitterO"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:textColor="@color/dark_blue"
+        android:text="@string/quitter"
+        android:backgroundTint="@color/light_purple2"
+        app:cornerRadius="80dp"
+        android:layout_marginTop="495dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
