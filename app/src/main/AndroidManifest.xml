@@ -20,24 +20,31 @@
         android:theme="@style/Theme.AppSpyCheat">
         <activity
             android:name=".HeadActivity"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".HandActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".ConnexionActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".OptionActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".InscriptionActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".AcceuilActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
