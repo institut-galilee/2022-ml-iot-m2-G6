@@ -1,6 +1,6 @@
-# SpyCheat
+# SpyCheat : système de surveillance d'examens
 
-Pour notre projet, veuillez vous rendre sur la branche nommé "projet"
+Veuillez vous rendre sur la branche intitulé **projet**
 
 # 2021-ExamMonitoringSystem 
 
