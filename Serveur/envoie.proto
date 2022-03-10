@@ -1,0 +1,61 @@
+//on spécifie qu'on utilise la syntaxe du proto3
+syntax = "proto3";
+
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.envoie";
+option java_outer_classname = "EnvoieProto";
+
+package envoie;
+
+service EnvoieService {
+    rpc GetEnvoie (GetEnvoieRequest) returns (Envoie);
+}
+
+message Envoie {
+
+    // > Membres de la reunion
+    string nomReunion = 1;
+    string mailEtudiant = 2;
+
+    // > Option
+    string teteOuMain = 3;
+
+    // > true pour reunion termine sinon false
+    string etatReunion = 4;
+
+    // > CameraX
+    string image = 5;
+
+    // > Accéléromètre
+    float x = 6;
+    float y = 7;
+    float z = 8;   
+
+    // > Tentative de connexion
+    string tentaConnec = 9;  
+}
+
+message GetEnvoieRequest {
+    // > Membres de la reunion
+    string nomReunion = 1;
+    string mailEtudiant = 2;
+
+    // > Option
+    string teteOuMain = 3;
+
+    // > true pour reunion termine sinon false
+    string etatReunion = 4;
+
+    // > CameraX
+    string image = 5;
+
+    // > Accéléromètre
+    float x = 6;
+    float y = 7;
+    float z = 8;  
+
+    // > Tentative de connexion
+    string tentaConnec = 9;   
+}
+
